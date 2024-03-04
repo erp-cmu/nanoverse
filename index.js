@@ -3,11 +3,11 @@ import "dotenv/config";
 
 // Input
 const inputData = {
-  customer_name: "สมชาย ใจดี",
-  // customer_name: "บัณฑิต สุขใจ",
+  // customer_name: "สมชาย ใจดี",
+  customer_name: "บัณฑิต สุขใจ",
   items: [
-    { item_code: "ITEM001", qty: 2, rate: 100, delivery_date: "2024-03-10" },
-    { item_code: "ITEM002", qty: 4, rate: 100, delivery_date: "2024-03-10" },
+    { item_code: "ITEM001", qty: 10, rate: 100, delivery_date: "2024-03-10" },
+    { item_code: "ITEM002", qty: 10, rate: 100, delivery_date: "2024-03-10" },
   ],
 };
 
